@@ -1,6 +1,4 @@
-<p style="color: green"><%= notice %></p>
-
-<div class="jumbotron">
+<div class="p-2 text-bg-dark">
   <h1 class="display-4 d-inline"><strong>Name:</strong> <%= @friend.first_name%></h1>
   <h1 class="display-4 d-inline"> <%= @friend.last_name%></h1>
   <p class="lead"><strong>Email:</strong> <%= @friend.email%></p>
@@ -8,6 +6,6 @@
   <p><strong>Phone:</strong> <%= @friend.phone%></p>
   <p><strong>Twitter Handle:</strong> <%= @friend.email%></p>
   <%= link_to "Edit", edit_friend_path(@friend), class:'btn btn-primary ' %> |
-  <%= link_to "Back", friends_path, class:'btn btn-dark'%> | 
+  <%= link_to "Back", friends_path, class:'btn  btn-secondary'%> | 
   <%= button_to "Delete", @friend, method: :delete, class:'btn btn-danger'%>
 </div>
