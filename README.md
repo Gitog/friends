@@ -8,6 +8,6 @@ Things you may want to cover:
 
 * User can add Friends
 
-#Following tuitorial for my first Ruby on Rails app.
-#Tweked design and some functionality
-#By James Njorio; credit John Elder
+Following tuitorial for my first Ruby on Rails app.
+Tweked design and some functionality
+By James Njorio; credit John Elder
