@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+ body{
+    background-image: url('https://cdn.pixabay.com/photo/2019/03/12/12/47/people-4050698_960_720.jpg');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+ }
