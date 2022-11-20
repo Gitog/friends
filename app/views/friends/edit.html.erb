@@ -1,5 +1,11 @@
-<h1>Editing friend</h1>
-<br>
+<div class="card border-success bg-light text-dark mx-auto" style="width: 50%;">
+
+<div class="card-header">
+<h2 class="text-center">Editing friend</h2>
+</div>
+
+<div class="card-body">
+
 <%= render "form", friend: @friend %>
 
 <br/>
@@ -7,4 +13,6 @@
 <div>
   <%= link_to "Show this friend", @friend %> |
   <%= link_to "Back to friends", friends_path %>
+</div>
+</div>
 </div>

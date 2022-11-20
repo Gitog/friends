@@ -1,3 +1,11 @@
-<div class="container-fluid">
-  <h1 class="text-center">WELCOME TO FRIENDS APP</h1>
+<div>
+<img src="../assets/images/logo.png" alt="logo">
+<div class="container-fluid text-center">
+<h1 class="text-white text-center h1-index">Welcome To Friends APP-We Help You Keep a Back Up Of Friends Social Data</h1>
+<% if user_signed_in?%>
+<h1 class="blink text-info">HAVE FUN!</h1>
+<% else %>
+<%= link_to 'Get Started', new_user_session_path, class:'btn btn-primary' %>
+<% end %>
+</div>
 </div>

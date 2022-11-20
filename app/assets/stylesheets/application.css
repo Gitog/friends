@@ -22,3 +22,23 @@
     height:100%;
     width:100%;
  }
+ 
+ .h1-index{
+  font-family: monospace;
+  font-size: 70px;
+ }
+
+ .btn-index{
+     padding: 10px;
+     margin-top: 30px;
+ }
+
+ .blink {
+   animation: blinker 1s linear infinite;
+ }
+ 
+ @keyframes blinker {
+   50% {
+     opacity: 0;
+   }
+ }
