@@ -2,15 +2,14 @@
 
 Friends App.
 
-Things you may want to cover:
+Does the Following:
 
 * Create User
 
 * User can add Friends
+Initial idea from a atutiotrial.
 
-Following tuitorial for my first Ruby on Rails app.
 
-
-Tweaked design and some functionality.
+Tweaked design(UI) and some functionality.
 
 By James Njorio; credit John Elder
